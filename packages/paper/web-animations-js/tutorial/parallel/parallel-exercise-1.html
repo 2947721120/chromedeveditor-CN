@@ -1,0 +1,58 @@
+<!-- 
+Copyright 2013 Google Inc. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<div class="content">
+
+  <div id="animNum">3</div>
+
+	<div class="heading subTitle">并行动漫集团</div>
+
+  <div class="heading exercises">练习1 - 制作一个平行组</div>
+
+  <p class="description">分组是重要的，所以我们
+  上手的运动</p>
+
+  <p class="description">在这个练习中，创建一个并行组
+  动画，拥有3个不同的动画。每个孩子应该运行300像素，
+  500像素，700像素从顶部分别5秒.</p>
+
+  <p class="description">提示：你应该先创建儿童则
+  包括孩子进组。您可能还需要创建
+  更多的动画的div在html部分，改变其颜色
+  取决于你的喜好.</p>
+
+  <div id="hideLabel" onclick="toggleSolution()">显示解决方案</div>
+  <div id="toggleText" class="codeSamples">
+    <code>var A = new Animation(document.querySelector("#a"), 
+        {top: "300px"}, 5); <br />
+        var B = new Animation(document.querySelector("#b"), 
+        {top: "500px"}, 5); <br />
+        var C = new Animation(document.querySelector("#c"), 
+        {top: "700px"}, 5); <br />
+        new AnimationGroup([A, B, C]);
+    </code>
+  </div>
+
+  <div id="tryIt"></div>
+
+  <div class="separator"></div>
+
+</div>  <!-- content ending div -->

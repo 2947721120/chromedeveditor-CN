@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>``projectName``</title>
+
+  <link rel="stylesheet" href="intro.css">
+</head>
+
+<body>
+  <h1>
+    Hello, 我是 "``projectName``"!
+    <br>
+    现在，切换到其他选项卡，然后单击我的图标
+    到Chrome地址栏的右侧。
+  </h1>
+</body>
+</html>

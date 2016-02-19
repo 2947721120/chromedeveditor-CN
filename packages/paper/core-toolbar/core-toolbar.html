@@ -1,0 +1,77 @@
+<!--
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<!--
+`core-toolbar` 是含有元素的水平条，可用于
+标签，导航，搜索和行动。
+
+    <core-toolbar>
+      <core-icon-button icon="menu" on-tap="{{menuAction}}"></core-icon-button>
+      <div flex>标题</div>
+      <core-icon-button icon="more" on-tap="{{moreAction}}"></core-icon-button>
+    </core-toolbar>
+
+`core-toolbar`有一个标准的高度，但可以制成通过设置高 `tall`
+class是`core-toolbar`. 这将使工具栏3倍的正常高度。
+
+    <core-toolbar class="tall">
+      <core-icon-button icon="menu"></core-icon-button>
+    </core-toolbar>
+    
+Apply `medium-tall`类，使工具条中高。这将使
+工具栏2个正常的高度。
+
+    <core-toolbar class="medium-tall">
+      <core-icon-button icon="menu"></core-icon-button>
+    </core-toolbar>
+
+当高，元素可以销至顶（默认），中部或底部。
+
+    <core-toolbar class="tall">
+      <core-icon-button icon="menu"></core-icon-button>
+      <div class="middle indent">中级职称</div>
+      <div class="bottom indent">底部标题</div>
+    </core-toolbar>
+    
+To make an element completely fit at the bottom of the toolbar, use `fit` along
+with `bottom`.
+
+    <core-toolbar class="tall">
+      <div id="progressBar" class="bottom fit"></div>
+    </core-toolbar>
+    
+`core-toolbar` adapts to mobile/narrow layout when there is a `core-narrow` class set
+on itself or any of its ancestors.
+
+@group Polymer Core Elements
+@element core-toolbar
+@homepage github.io
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+
+<polymer-element name="core-toolbar" noscript>
+<template>
+
+  <link rel="stylesheet" href="core-toolbar.css">
+
+  <div id="bottomBar" class="toolbar-tools" center horizontal layout>
+    <content select=".bottom"></content>
+  </div>
+  
+  <div id="middleBar" class="toolbar-tools" center horizontal layout>
+    <content select=".middle"></content>
+  </div>
+
+  <div id="topBar" class="toolbar-tools" center horizontal layout>
+    <content></content>
+  </div>
+
+</template>
+</polymer-element>

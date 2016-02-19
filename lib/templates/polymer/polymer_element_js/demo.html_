@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>``tagName`` 演示</title>
+
+  <script src="../webcomponentsjs/webcomponents-lite.min.js"></script>
+
+  <link rel="import" href="``sourceName``.html">
+</head>
+
+<body unresolved>
+  <p>`一个例子 ``tagName`` 看起来是这样的:</p>
+
+  <``tagName`` id="element" title="Hello, 我是 &lt;``tagName``&gt;, 一个自定义的聚合物元件...">
+    <span>这是我的客户提供的内容!</span>
+  </``tagName``>
+</body>
+</html>

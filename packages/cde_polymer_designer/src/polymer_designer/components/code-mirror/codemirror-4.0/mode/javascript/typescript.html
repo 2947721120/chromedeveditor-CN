@@ -1,0 +1,61 @@
+<!doctype html>
+
+<title>代码镜：类型的脚本模式</title>
+<meta charset="utf-8"/>
+<link rel=stylesheet href="../../doc/docs.css">
+
+<link rel="stylesheet" href="../../lib/codemirror.css">
+<script src="../../lib/codemirror.js"></script>
+<script src="javascript.js"></script>
+<style type="text/css">.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black;}</style>
+<div id=nav>
+  <a href="http://codemirror.net"><img id=logo src="../../doc/logo.png"></a>
+
+  <ul>
+    <li><a href="../../index.html">首页</a>
+    <li><a href="../../doc/manual.html">手册</a>
+    <li><a href="https://github.com/marijnh/codemirror">代码</a>
+  </ul>
+  <ul>
+    <li><a href="../index.html">语言模式</a>
+    <li><a class=active href="#">类型的脚本</a>
+  </ul>
+</div>
+
+<article>
+<h2>类型的脚本模式</h2>
+
+
+<div><textarea id="code" name="code">
+class Greeter {
+	greeting: string;
+	constructor (message: string) {
+		this.greeting = message;
+	}
+	greet() {
+		return "Hello, " + this.greeting;
+	}
+}   
+
+var greeter = new Greeter("world");
+
+var button = document.createElement('button')
+button.innerText = "Say Hello"
+button.onclick = function() {
+	alert(greeter.greet())
+}
+
+document.body.appendChild(button)
+
+</textarea></div>
+
+    <script>
+      var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        lineNumbers: true,
+        matchBrackets: true,
+        mode: "text/typescript"
+      });
+    </script>
+
+    <p>这是一个在专业化<a href="index.html">JavaScript 模式</a>.</p>
+  </article>

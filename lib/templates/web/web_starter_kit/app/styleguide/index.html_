@@ -1,0 +1,1263 @@
+<!doctype html>
+<html lang="en" class="no-js no-touch" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8" >
+    <meta name="description" content="视觉风格指南 - 网络入门套件.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+    <meta itemprop="name" content="视觉风格指南 - 网络入门套件">
+    <meta itemprop="description" content="视觉风格指南 - 网络入门套件.">
+    <link rel="stylesheet" href="../styles/components/components.css">
+    <link rel='stylesheet' href='https://font.c2cmalls.com/css?family=Roboto+Condensed:400,300,700'>
+    <link rel='stylesheet' href='https://font.c2cmalls.com/icon?family=Material+Icons'>
+    <title>视觉风格指南 - 网络入门套件</title>
+    <style>
+      .auto-gen-code-snippet {
+        display: none;
+      }
+      .auto-gen-code-visible {
+        display: block;
+      }
+    </style>
+  </head>
+  <body class="page--styleguide">
+
+    <div class="container">
+      <h1>网络入门套件</h1>
+    </div>
+
+    <div class="summary-header">
+      <div class="container">
+        <h2 class="summary-header__title">视觉风格指南</h2>
+        <ol class="summary-header__anchor-list  list-links">
+          <li class="summary-header__anchors-item"><a href="#typography">活版印刷</a></li>
+          <li class="summary-header__anchors-item"><a href="#buttons">按钮</a></li>
+          <li class="summary-header__anchors-item"><a href="#lists">名单</a></li>
+          <li class="summary-header__anchors-item"><a href="#links">链接</a></li>
+          <li class="summary-header__anchors-item"><a href="#icons">图标</a></li>
+          <li class="summary-header__anchors-item"><a href="#breadcrumbs">面包屑</a></li>
+          <li class="summary-header__anchors-item"><a href="#table">表</a></li>
+          <li class="summary-header__anchors-item"><a href="#grid">格</a></li>
+          <li class="summary-header__anchors-item"><a href="#colors">颜色</a></li>
+          <li class="summary-header__anchors-item"><a href="#highlights">亮点</a></li>
+          <li class="summary-header__anchors-item"><a href="#editorial-header">社论标题</a></li>
+          <li class="summary-header__anchors-item"><a href="#article-section">第三部分</a></li>
+          <li class="summary-header__anchors-item"><a href="#guides-section">指南部分</a></li>
+          <li class="summary-header__anchors-item"><a href="#page-header">页眉</a></li>
+          <li class="summary-header__anchors-item"><a href="#quote">引用</a></li>
+          <li class="summary-header__anchors-item"><a href="#guides-intro">特色图标</a></li>
+          <li class="summary-header__anchors-item"><a href="#featured-spotlight">特色亮点</a></li>
+          <li class="summary-header__anchors-item"><a href="#featured-list">推荐列表</a></li>
+          <li class="summary-header__anchors-item"><a href="#next-lessons">特色块</a></li>
+          <li class="summary-header__anchors-item"><a href="#article-navigation">文章导航</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="container">
+      <button id="snippet-toggle" class="button--primary">切换代码段</button>
+    </div>
+
+    <div class="container">
+      <!-- Typography Start -->
+      <a name="typography"></a>
+      <section class="styleguide__typography">
+        <h2 class="subsection-title"><strong class="subsection-number">#01</strong> 活版印刷</h2>
+        <div class="code-sample">
+          <p class="small">因为外面class包含不同,所以样式大小不同.其实翻译成汉语是:小</p>
+        </div>
+
+        <div class="code-sample">
+          <p class="base">因为外面class包含不同,所以样式大小不同.其实翻译成汉语是:基础</p>
+        </div>
+
+        <div class="code-sample">
+          <p class="medium">因为外面class包含不同,所以样式大小不同.其实翻译成汉语是:中等</p>
+        </div>
+
+        <div class="code-sample">
+          <p class="large">因为外面class包含不同,所以样式大小不同.其实翻译成汉语是:大</p>
+        </div>
+
+        <div class="code-sample">
+          <p class="xlarge">因为外面class包含不同,所以样式大小不同.其实翻译成汉语是:XL你懂的</p>
+        </div>
+
+        <div class="code-sample">
+          <p class="xxlarge">因为外面class包含不同,所以样式大小不同.其实翻译成汉语是:XXL你懂的</p>
+        </div>
+
+        <div class="code-sample">
+          <p class="huge">因为外面class包含不同,所以样式大小不同.其实翻译成汉语是"巨大"</p>
+        </div>
+      </section>
+      <!-- Typography End-->
+
+      <!-- Buttons Start -->
+      <a name="buttons"></a>
+      <section class="styleguide__buttons">
+        <h2 class="subsection-title"><strong class="subsection-number">#02</strong> 按钮</h2>
+
+        <div>
+          <h4>主</h4>
+          <div class="code-sample">
+            <a href="#ignore-click" class="button--primary">不一样的是按钮后primary</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>二级</h4>
+          <div>
+            <div class="code-sample">
+              <a href="#ignore-click" class="button--secondary">不一样的是按钮后secondary</a>
+            </div>
+          </div>
+
+          <div class="code-sample">
+            <div class="styleguide__inverted-block">
+              <a href="#ignore-click" class="button--secondary-variation">使用我们的工具</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Buttons End -->
+
+      <!-- Lists Start -->
+      <a name="lists"></a>
+      <section class="styleguide__lists">
+        <h2 class="subsection-title"><strong class="subsection-number">#03</strong>名单</h2>
+
+        <h3>默认列表</h3>
+
+        <h4>外是ul</h4>
+        <div class="code-sample">
+          <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Dicta optio cumque dolore hic ea facilis</li>
+            <li>Minus, possimus, veniam, incidunt eligendi</li>
+          </ul>
+        </div>
+
+        <h4>外是ol</h4>
+        <div class="code-sample">
+          <ol>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Dicta optio cumque dolore hic ea facilis</li>
+            <li>Minus, possimus, veniam, incidunt eligendi</li>
+          </ol>
+        </div>
+
+        <h3>链接默认列表</h3>
+
+        <h4>列表外是ul</h4>
+        <div class="code-sample">
+          <ul class="list-links">
+            <li class="list__item"><a href="#ignore-click">应该这么用链接</a></li>
+            <li class="list__item"><a href="#ignore-click">选择优良的说法，并且很容易</a></li>
+            <li class="list__item"><a href="#ignore-click">Minus, possimus, veniam, incidunt eligendi</a></li>
+          </ul>
+        </div>
+
+        <div class="code-sample">
+          <ul class="list-links list-links--primary">
+            <li class="list__item"><a href="#ignore-click">Lorem ipsum dolor sit amet</a></li>
+            <li class="list__item"><a href="#ignore-click">Dicta optio cumque dolore hic ea facilis</a></li>
+            <li class="list__item"><a href="#ignore-click">Minus, possimus, veniam, incidunt eligendi</a></li>
+          </ul>
+        </div>
+
+        <h4>外是ol</h4>
+        <div class="code-sample">
+          <ol class="list-links">
+            <li><a href="#ignore-click">Lorem ipsum dolor sit amet</a></li>
+            <li class="current"><a href="#ignore-click">Dicta optio cumque dolore hic ea facilis</a></li>
+            <li><a href="#ignore-click">Minus, possimus, veniam, incidunt eligendi</a></li>
+          </ol>
+        </div>
+
+        <div class="code-sample">
+          <ol class="list-anchor">
+            <li><a href="#ignore-click">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#ignore-click">Dicta optio cumque dolore hic ea facilis</a></li>
+            <li><a href="#ignore-click">Minus, possimus, veniam, incidunt eligendi</a></li>
+          </ol>
+        </div>
+
+        <div class="code-sample">
+          <ol class="list-anchor list-small">
+        <li><a href="#ignore-click">注意第一行代码</a></li>
+            <li><a href="#ignore-click">因为不一样</a></li>
+            <li><a href="#ignore-click">所以字体大小不一样</a></li>
+          </ol>
+        </div>
+
+        <div class="code-sample">
+          <ol class="list-links list-links--secondary">
+            <li><a href="#ignore-click">基本布局</a></li>
+            <li><a href="#ignore-click">基本布局</a></li>
+            <li><a href="#ignore-click">布局模式</a></li>
+          </ol>
+        </div>
+
+        <div class="code-sample">
+          <ol class="list-links list-links--secondary list-small">
+            <li><a href="#ignore-click">基本布局</a></li>
+            <li><a href="#ignore-click">基本布局</a></li>
+            <li><a href="#ignore-click">布局模式</a></li>
+          </ol>
+        </div>
+      </section>
+      <!-- Lists End -->
+
+      <!-- Links Start -->
+      <a name="links"></a>
+      <section class="styleguide__links">
+        <h2 class="subsection-title"><strong class="subsection-number">#04</strong> 链接</h2>
+
+        <div>
+          <h4>主</h4>
+          <div class="code-sample">
+            <a href="#ignore-click" class="cta--primary">primary意思是'主要'</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>次</h4>
+          <div class="code-sample">
+            <a href="#ignore-click" class="cta--secondary">这个可以看做是次要</a>
+          </div>
+        </div>
+
+        <div class="code-sample">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#ignore-click" class="cta">use our tool</a> Fugiat, quam alias voluptatem tempora minus dolor facere cumque necessitatibus placeat velit aliquid ab dolore beatae. Neque ipsam in a illum repellendus?</p>
+        </div>
+      </section>
+      <!-- Links End -->
+
+      <!-- Icons Start -->
+      <a name="icons"></a>
+      <section class="styleguide__icons">
+        <h2 class="styleguide__icons"><strong class="subsection-number">#05</strong>图标</h2>
+
+        <div class="clear">
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-minus"></i></div></p>
+          </div>
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-plus"></i></div></p>
+          </div>
+          <div class="g--third g--last">
+            <p><div class="code-sample"><i class="icon icon-star"></i></div></p>
+          </div>
+
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-chevron-right"></i></div></p>
+          </div>
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-chevron-left"></i></div></p>
+          </div>
+          <div class="g--third g--last">
+            <p><div class="code-sample"><i class="icon icon-chevron-up"></i></div></p>
+          </div>
+
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-chevron-down"></i></div></p>
+          </div>
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-slash"></i></div></p>
+          </div>
+          <div class="g--third g--last">
+            <p><div class="code-sample"><i class="icon icon-google-dev"></i></div></p>
+          </div>
+
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-lessons"></i></div></p>
+          </div>
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-multi-device-layouts"></i></div></p>
+          </div>
+          <div class="g--third g--last">
+            <p><div class="code-sample"><i class="icon icon-user-input"></i></div></p>
+          </div>
+
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-introduction-to-media"></i></div></p>
+          </div>
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-performance"></i></div></p>
+          </div>
+          <div class="g--third g--last">
+            <p><div class="code-sample"><i class="icon icon-bullet"></i></div></p>
+          </div>
+
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-chevron-large"></i></div></p>
+          </div>
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-close"></i></div></p>
+          </div>
+          <div class="g--third g--last">
+            <p><div class="code-sample"><i class="icon icon-cog"></i></div></p>
+          </div>
+
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-diamond"></i></div></p>
+          </div>
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-exclamation"></i></div></p>
+          </div>
+          <div class="g--third g--last">
+            <p><div class="code-sample"><i class="icon icon-hash"></i></div></p>
+          </div>
+
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-menu"></i></div></p>
+          </div>
+          <div class="g--third">
+            <p><div class="code-sample"><i class="icon icon-question"></i></div></p>
+          </div>
+          <div class="g--third g--last">
+            <p><div class="code-sample"><i class="icon icon-tick"></i></div></p>
+          </div>
+        </div>
+
+        <h4>图标圈</h4>
+
+        <div class="clear">
+
+          <div class="g--half">
+            <p>
+              <div class="code-sample">
+                <span class="icon-circle"><i class="icon icon-lessons"></i></span>
+              </div>
+            </p>
+          </div>
+          <div class="g--half g--last">
+            <p>
+              <div class="code-sample">
+                <span class="icon-circle"><i class="icon icon-lessons"></i></span>
+              </div>
+            </p>
+          </div>
+
+        </div>
+
+        <h4>图标圈 - 主题</h4>
+
+        <div class="clear">
+
+          <div class="g--half">
+            <div class="code-sample">
+              <p class="theme--multi-device-layouts">
+                <span class="icon-circle themed--background"><i class="icon icon-multi-device-layouts"></i></span>
+              </p>
+            </div>
+          </div>
+          <div class="g--half g--last">
+            <div class="code-sample">
+              <p class="theme--user-input">
+                <span class="icon-circle themed--background"><i class="icon icon-user-input"></i></span>
+              </p>
+            </div>
+          </div>
+
+          <div class="g--half">
+            <div class="code-sample">
+              <p class="theme--introduction-to-media">
+                <span class="icon-circle themed--background"><i class="icon icon-introduction-to-media"></i></span>
+              </p>
+            </div>
+          </div>
+          <div class="g--half g--last">
+            <div class="code-sample">
+              <p class="theme--performance">
+                <span class="icon-circle themed--background"><i class="icon icon-performance"></i></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h4>图标圈 - 大</h4>
+
+        <div class="clear">
+
+          <div class="g--half">
+            <div class="code-sample">
+              <p class="theme--multi-device-layouts">
+                <span class="icon-circle--large themed--background"><i class="icon icon-multi-device-layouts"></i></span>
+              </p>
+            </div>
+          </div>
+          <div class="g--half g--last">
+            <div class="code-sample">
+              <p class="theme--user-input">
+                <span class="icon-circle--large themed--background"><i class="icon icon-user-input"></i></span>
+              </p>
+            </div>
+          </div>
+
+          <div class="g--half">
+            <div class="code-sample">
+              <p class="theme--introduction-to-media">
+                <span class="icon-circle--large themed--background"><i class="icon icon-introduction-to-media"></i></span>
+              </p>
+            </div>
+          </div>
+          <div class="g--half g--last">
+            <div class="code-sample">
+              <p class="theme--performance">
+                <span class="icon-circle--large themed--background"><i class="icon icon-performance"></i></span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- Icons End -->
+
+      <!-- Breadcrumbs Start -->
+      <a name="breadcrumbs"></a>
+      <section class="styleguide__breadcrumb">
+        <h2 class="subsection-title"><strong class="subsection-number">#06</strong>面包屑</h2>
+
+        <div class="code-sample">
+          <nav class="breadcrumbs">
+            <p><a href="#ignore-click" class="breadcrumbs__link">Link 1</a> / <a href="#ignore-click" class="breadcrumbs__link">Link 2</a> / <a href="#ignore-click" class="breadcrumbs__link">Link 3</a> / <a href="#ignore-click" class="breadcrumbs__link">Link 4</a> </p>
+          </nav>
+        </div>
+
+      </section>
+      <!-- Breadcrumbs End -->
+
+      <!-- Tables Start -->
+      <a name="table"></a>
+      <section class="styleguide__table">
+        <h2 class="subsection-title"><strong class="subsection-number">#07</strong>表</h2>
+
+        <div class="code-sample">
+          <table class="table-4">
+            <colgroup>
+              <col span="1">
+              <col span="1">
+              <col span="1">
+              <col span="1">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>元件</th>
+                <th>可用性</th>
+                <th>描述</th>
+                <th>描述</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-th="element"><code>src</code></td>
+                <td data-th="availability">所有浏览器</td>
+                <td data-th="description">给人的视频的地址（URL）。</td>
+                <td data-th="description">给人的视频的地址（URL）。</td>
+              </tr>
+              <tr>
+                <td data-th="element"><code>poster</code></td>
+                <td data-th="availability">所有浏览器</td>
+                <td data-th="description">给出浏览器可以只要视频单元载荷显示，回放开始前的图像文件的地址（URL）。</td>
+                <td data-th="description">给出浏览器可以只要视频单元载荷显示，回放开始前的图像文件的地址（URL）。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="code-sample">
+          <table class="table-3">
+            <colgroup>
+              <col span="1">
+              <col span="1">
+              <col span="1">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>元件</th>
+                <th>可用性</th>
+                <th>描述</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-th="element"><code>src</code></td>
+                <td data-th="availability">所有浏览器</td>
+                <td data-th="description">给人的视频的地址 (URL) </td>
+              </tr>
+              <tr>
+                <td data-th="element"><code>poster</code></td>
+                <td data-th="availability">所有浏览器</td>
+                <td data-th="description">给出浏览器可以只要视频单元载荷显示，回放开始前的图像文件的地址(URL).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="code-sample">
+          <table class="table-2">
+            <colgroup>
+              <col span="1">
+              <col span="1">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>元件</th>
+                <th>可用性</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-th="element"><code>src</code></td>
+                <td data-th="availability">申请了在查询中定义的值的任何浏览器的宽度规则。</td>
+              </tr>
+              <tr>
+                <td data-th="element"><code>poster</code></td>
+                <td data-th="availability">申请了在查询中定义的值的任何浏览器的宽度规则。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          <b>注：</b> <code>markdown</code> 在表中无法识别，因此任何代码
+          块应该被包裹在 &lt;code&gt; 标签.
+        </p>
+
+      </section>
+      <!-- Tables End -->
+
+      <!-- Grid Start -->
+      <a name="grid"></a>
+      <section class="styleguide__grid">
+        <h2 class="subsection-title"><strong class="subsection-number">#08</strong>网格</h2>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g-medium--half g-wide--1"></div>
+            <div class="g-medium--half g-medium--last g-wide--1"></div>
+            <div class="g-medium--half g-wide--1"></div>
+            <div class="g-medium--half g-medium--last g-wide--1 g-wide--last"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g-wide--1 g-medium--half"></div>
+            <div class="g-wide--3 g-wide--last g-medium--half g--last"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g-wide--3 g-medium--half"></div>
+            <div class="g-wide--1 g-wide--last g-medium--half g--last"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g-medium--full g-wide--full"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g-medium--2 g-medium--last g-wide--3"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g-medium--1 g-medium--last g-wide--2"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g-medium--1 g-medium--last g-wide--1"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g-medium--1 g-medium--push-2 g-medium--last g-wide--1 g-wide--push-3 g-wide--last"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g-medium--1 g-medium--push-2 g-medium--last g-wide--2 g-wide--push-2 g-wide--last"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g-medium--2 g-medium--push-1 g-medium--last g-wide--3 g-wide--push-1 g-wide--last"></div>
+          </div>
+        </div>
+
+        <h4>一致的网格类</h4>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g--third"></div>
+            <div class="g--third"></div>
+            <div class="g--third g--last"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g--half"></div>
+            <div class="g--half g--last"></div>
+          </div>
+        </div>
+
+        <div class="clear demo">
+          <div class="code-sample">
+            <div class="g--half g--centered"></div>
+            <div class="g--third g--centered"></div>
+          </div>
+        </div>
+
+      </section>
+      <!-- Grid End -->
+
+      <!-- Colors Start -->
+      <a name="colors"></a>
+      <section class="styleguide__colors">
+        <h2 class="subsection-title"><strong class="subsection-number">#09</strong>颜色</h2>
+
+        <h3>黑</h3>
+        <div class="code-sample">
+          <ul class="styleguide__color-list list--reset clear">
+            <li class="color--gray-background g--half">灰色背景</li>
+            <li class="color--gray-keyline g--half g--last">灰关键线</li>
+            <li class="color--gray g--half">灰色</li>
+            <li class="color--gray-dark g--half g--last">灰黑色</li>
+          </ul>
+        </div>
+
+        <h3>主题</h3>
+        <div class="code-sample">
+          <ul class="styleguide__color-list list--reset clear">
+            <li class="color--layouts g--half">布局</li>
+            <li class="color--layouts-secondary g--half g--last">布局辅助</li>
+            <li class="color--user g--half">用户</li>
+            <li class="color--user-secondary g--half g--last">用户二次</li>
+            <li class="color--media g--half">媒体</li>
+            <li class="color--media-secondary g--half g--last">媒体二次</li>
+            <li class="color--performance g--half">性能</li>
+            <li class="color--performance-secondary g--half g--last">性能二级</li>
+          </ul>
+        </div>
+
+        <h3>谷歌</h3>
+        <div class="code-sample">
+          <ul class="styleguide__color-list list--reset clear">
+            <li class="color--blue g--half">蓝</li>
+            <li class="color--blue-secondary g--half g--last">蓝色辅助</li>
+            <li class="color--green g--half">绿色</li>
+            <li class="color--green-secondary g--half g--last">绿色二次</li>
+            <li class="color--red g--half">红</li>
+            <li class="color--red-secondary g--half g--last">红中学</li>
+            <li class="color--yellow g--half">黄色</li>
+            <li class="color--yellow-secondary g--half g--last">黄中学</li>
+          </ul>
+        </div>
+
+        <h3>助手</h3>
+        <div class="code-sample">
+          <ul class="styleguide__color-list list--reset clear">
+            <li class="color--text g--half">文本</li>
+            <li class="color--highlight g--half g--last">突出</li>
+            <li class="color--warning g--half">警告</li>
+            <li class="color--danger g--half g--last">危险</li>
+            <li class="color--muted g--half">静音</li>
+            <li class="color--remember g--half g--last">记得</li>
+            <li class="color--learning g--half">学习</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Colors End -->
+    </div> <!-- // closing container -->
+
+    <!-- Highlights Start -->
+    <div class="container">
+      <a name="highlights"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#10</strong>要点</h2>
+    </div>
+
+    <section class="styleguide__highlights">
+
+      <div class="code-sample">
+        <div class="highlight-module  highlight-module--right   highlight-module--remember">
+          <div class="highlight-module__container  icon-exclamation ">
+            <div class="highlight-module__content   g-wide--push-1 g-wide--pull-1  g-medium--pull-1   ">
+              <p class="highlight-module__title"> 记得</p>
+              <p class="highlight-module__text"> Lorem存有悲坐阿梅德，consectetur adipiscing ELIT。 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="code-sample">
+        <div class="highlight-module  highlight-module--left   highlight-module--learning  ">
+          <div class="highlight-module__container  icon-star ">
+            <div class="highlight-module__content   g-wide--push-1 g-wide--pull-1  g-medium--push-1   ">
+              <p class="highlight-module__title">关键点</p>
+              <p class="highlight-module__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="code-sample">
+        <div class="highlight-module  highlight-module--right   highlight-module--remember  ">
+          <div class="highlight-module__container  icon-exclamation ">
+            <div class="highlight-module__content   g-wide--push-1 g-wide--pull-1  g-medium--pull-1   ">
+              <p class="highlight-module__title"> 记得</p>
+              <ul class="highlight-module__list">
+                <li>Lorem存有胡萝卜</li>
+                <li>他们逃离自己的智慧与管理</li>
+                <li>一些努力的欲望真相</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="code-sample">
+        <div class="highlight-module  highlight-module--left   highlight-module--remember  ">
+          <div class="highlight-module__container  icon-exclamation ">
+            <div class="highlight-module__content   g-wide--push-1 g-wide--pull-1  g-medium--push-1   ">
+              <p class="highlight-module__title"> 记得</p>
+              <p class="highlight-module__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit!经常能看见这句话,其实没含义,只是提现不同文字显示效果而已 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="container">
+      <h3>代码示例</h3>
+    </div>
+    <div class="code-sample">
+      <div class="highlight-module highlight-module--code highlight-module--right">
+        <div class="highlight-module__container">
+          <code class='html'><div class="highlight"><pre>    <span class="cp">&lt;!DOCTYPE html&gt;</span>
+        <span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">&quot;en&quot;</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;head&gt;</span>
+                <span class="nt">&lt;title&gt;</span>Article Example: sample example<span class="nt">&lt;/title&gt;</span>
+          <span class="nt">&lt;/head&gt;</span>
+          <span class="nt">&lt;body&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">&quot;main&quot;</span><span class="nt">&gt;</span>
+              你好，世界。
+            <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;/body&gt;</span>
+        <span class="nt">&lt;/html&gt;</span>
+    </pre></div></code>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="code-sample">
+        <pre><code class='html'>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</code></pre>
+      </div>
+    </div>
+
+    <div class="code-sample">
+      <div class="highlight-module  highlight-module--left   highlight-module--learning   highlight-module--inline ">
+        <div class="highlight-module__container  icon-star ">
+          <div class="highlight-module__content   g-wide--pull-1  ">
+            <p class="highlight-module__title"> 重点</p>
+
+              <ul class="highlight-module__list">
+                <li>Lorem存有胡萝卜</li>
+                <li>他们逃离自己的智慧与管理</li>
+                <li>一些努力的欲望真相</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="code-sample">
+      <div class="highlight-module  highlight-module--right   highlight-module--remember   highlight-module--inline ">
+        <div class="highlight-module__container  icon-exclamation ">
+          <div class="highlight-module__content   g-wide--pull-1  ">
+            <p class="highlight-module__title"> 记得</p>
+
+              <ul class="highlight-module__list">
+                <li>Lorem存有胡萝卜</li>
+                <li>他们逃离自己的智慧与管理</li>
+                <li>一些努力的欲望真相</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Highlights End -->
+
+    <!-- Editorial Header Start-->
+    <div class="container">
+      <a name="editorial-header"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#11</strong>社论标题</h2>
+    </div>
+
+    <div class="code-sample">
+      <section class="styleguide__editorial-header">
+
+        <div class="editorial-header">
+          <div class="container">
+            <nav class="breadcrumbs">
+              <p>/ <a href="#ignore-click" class="breadcrumbs__link">精要</a> / <a href="#ignore-click" class="breadcrumbs__link">多屏布局</a></p>
+            </nav>
+
+            <h1 class="tag editorial-header__title">布局基本知识</h1>
+            <h2 class="editorial-header__subtitle">什么是视域？</h2>
+            <p class="editorial-header__excerpt g-wide--pull-1">Lorem存有悲坐阿梅德，consectetur adipiscing ELIT。上市代理，但对生活，欧盟山雀悲。上市代理，但对生活，欧盟山雀悲。</p>
+            <p class="g-wide--pull-1">Lorem存有悲坐阿梅德，consectetur adipiscing elit。上市代理，但对生活，欧盟山雀悲。Donec存有直径，热选在，posuere aliquet英里。Pellentesque玩家接收孕妇SEM开发，ID blandit turpis收入。</p>
+
+            <div class="toc">
+              <p class="toc__title">在这一课</p>
+              <ol class="toc__list list-anchor" id="toc">
+                <li><a href="#ignore-click">Lorem存有胡萝卜</a></li>
+                <li class="current"><a href="#ignore-click">这种疼痛的选择优良的说法，并且很容易</a></li>
+                <li><a href="#ignore-click">此外，我们会下跌选</a></li>
+                <li><a href="#ignore-click">Lorem存有胡萝卜</a></li>
+                <li><a href="#ignore-click">这种疼痛的选择优良的说法，并且很容易</a></li>
+                <li><a href="#ignore-click">此外，我们会下跌选</a></li>
+              </ol>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="container">
+      <a name="article-section"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#12</strong>条第</h2>
+    </div>
+
+    <div class="code-sample">
+      <section class="styleguide__articles-section">
+        <div class="articles-section">
+          <div class="container">
+            <p class="articles-count">4指南</p>
+            <ol class="articles-list">
+              <li class="articles-list__item">
+                <h3 class="xlarge"><a href="#ignore-click">布局基本知识</a></h3>
+                <p class="g-wide--push-1 g-wide--pull-1">Lorem存有悲坐阿梅德，consectetur回扣。更糟的是，有奉承的区别，但这些都不。</p>
+                <a href="#ignore-click" class="cta--primary">查看所有课程</a>
+              </li>
+              <li class="articles-list__item">
+                <h3 class="xlarge"><a href="#ignore-click">基本布局</a></h3>
+                <p class="g-wide--push-1 g-wide--pull-1">Lorem存有悲坐阿梅德，consectetur回扣。更糟的是，有奉承的区别，但这些都不。</p>
+                <a href="#ignore-click" class="cta--primary">查看所有课程</a>
+              </li>
+              <li class="articles-list__item">
+                <h3 class="xlarge"><a href="#ignore-click">布局模式</a></h3>
+                <p class="g-wide--push-1 g-wide--pull-1">Lorem存有悲坐阿梅德，consectetur回扣。更糟的是，有奉承的区别，但这些都不。</p>
+                <a href="#ignore-click" class="cta--primary">查看所有课程</a>
+              </li>
+              <li class="articles-list__item">
+                <h3 class="xlarge"><a href="#ignore-click">UI元素</a></h3>
+                <p class="g-wide--push-1 g-wide--pull-1">Lorem存有悲坐阿梅德，consectetur回扣。更糟的是，有奉承的区别，但这些都不。</p>
+                <a href="#ignore-click" class="cta--primary">查看所有课程</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <a name="guides-section"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#13</strong>指南部分</h2>
+    </div>
+
+    <div class="code-sample">
+      <section class="styleguide__guides-section">
+        <div class="guides-section">
+          <header class="container">
+            <h2 class="xxlarge">文件</h2>
+            <p>按照这些指南和建立网络内容的用户可以在他们选择的任何设备访问。</p>
+          </header>
+          <ul class="guides-list container-medium">
+            <li class="guides-list__item g--half theme--multi-device-layouts ">
+            <div class="primary-content">
+              <h3 class="xlarge"><a href="#ignore-click" title="去多设备布局" class="themed">多设备布局</a></h3>
+              <p>Lorem存有悲坐阿梅德，consectetur回扣。Doloremque，希望是正确的，在通常的劳动。烦恼，而且，只是把他们发现的痛苦的错误是出生时没有任何不适接收？</p>
+            </div>
+            <div class="secondary-content">
+              <span class="icon-circle themed--background"><i class="icon icon-lessons"></i></span>
+              <ol class="list-links list-links--secondary">
+                <li><a href="#ignore-click" title="阅读课响应式网页设计基础">响应式网页设计基础</a></li>
+                <li><a href="#ignore-click" title="阅读课响应式网页设计模式">响应式网页设计模式</a></li>
+                <li><a href="#ignore-click" title="阅读教学的导航和操作模​​式">导航和操作模​​式</a></li>
+              </ol>
+            </div>
+            </li>
+            <li class="guides-list__item g--half theme--introduction-to-media g--last">
+            <div class="primary-content">
+              <h3 class="xlarge"><a href="#ignore-click" title="转到图像，音频和视频" class="themed">图像，音频和视频</a></h3>
+              <p>Lorem存有悲坐阿梅德，consectetur回扣。身体的，然而和逃离，整个柏拉图，他们是更大，但与喜悦随之而来的一个快乐的拒绝了一些更有趣的比他们都非常辛苦deleniti聪明人？</p>
+            </div>
+            <div class="secondary-content">
+              <span class="icon-circle themed--background"><i class="icon icon-lessons"></i></span>
+              <ol class="list-links list-links--secondary">
+                <li><a href="#ignore-click" title="阅读课图片">图片</a></li>
+                <li><a href="#ignore-click" title="阅读课视频">视频</a></li>
+                <li><a href="#ignore-click" title="阅读课音频">音频</a></li>
+              </ol>
+            </div>
+            </li>
+            <li class="guides-list__item g--half theme--user-input ">
+            <div class="primary-content">
+              <h3 class="xlarge"><a href="#ignore-click" title="转到表单和用户输入" class="themed">表单和用户输入</a></h3>
+              <p>Lorem存有悲坐阿梅德，consectetur回扣。很高兴获得考虑。只有他们可以得到，在时间，生命的力量也不能少往往是辛劳的痛苦蒙蔽，掌握建设者愉悦的工作性质，并支付他。发布。</p>
+            </div>
+            <div class="secondary-content">
+              <span class="icon-circle themed--background"><i class="icon icon-lessons"></i></span>
+              <ol class="list-links list-links--secondary">
+                <li><a href="#ignore-click" title="阅读课创造了惊人的形式">创造出惊人的形式</a></li>
+                <li><a href="#ignore-click" title="阅读课添加触摸到您的网站">添加触摸到您的网站</a></li>
+              </ol>
+            </div>
+            </li>
+            <li class="guides-list__item g--half theme--performance g--last">
+            <div class="primary-content">
+              <h3 class="xlarge"><a href="#ignore-click" title="转到优化性能" class="themed">优化性能</a></h3>
+              <p>Lorem存有悲坐阿梅德，consectetur回扣。义务和责任的比例，他出生一个人！另一种选择，悲伤，内疚的选举被批评作为一个建筑师的时候！</p>
+            </div>
+            <div class="secondary-content">
+              <span class="icon-circle themed--background"><i class="icon icon-lessons"></i></span>
+              <ol class="list-links list-links--secondary">
+                <li><a href="#ignore-click" title="Read the lesson Critical Rendering Path">Critical Rendering Path</a></li>
+                <li><a href="#ignore-click" title="Read the lesson Optimizing Content Efficiency">Optimizing Content Efficiency</a></li>
+              </ol>
+            </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <a name="page-header"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#14</strong>页头</h2>
+    </div>
+
+    <div class="code-sample">
+      <section class="styleguide__page-header">
+        <div class="page-header">
+          <div class="container">
+            <nav class="breadcrumbs">
+              <p>/ <a href="#ignore-click" class="breadcrumbs__link">精要</a></p>
+            </nav>
+            <h3 class="xxlarge text-divider">多屏布局</h3>
+            <p class="page-header__excerpt g-wide--push-1 g-wide--pull-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, optio, ad, voluptates repudiandae at excepturi error delectus explicabo nulla eum provident quibusdam ipsum sapiente culpa sequi quia unde fuga id.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <a name="quote"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#15</strong>报价</h2>
+    </div>
+
+    <div class="code-sample">
+      <section class="styleguide__quote">
+        <div class="quote">
+          <div class="container">
+            <blockquote class="quote__content g-wide--push-1 g-wide--pull-1 g-medium--push-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, illum, at quis vero nam minus incidunt consequatur reprehenderit aliquid blanditiis fugiat nihil dolor tempora distinctio ipsum quisquam debitis excepturi magni.
+            <p>名称/详情</p>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <a name="guides-intro"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#16</strong>精选图标</h2>
+    </div>
+
+    <div class="code-sample">
+      <section class="styleguide__centered-list">
+        <div class="container">
+          <ul class="list-guides-intro list-centered list--reset clear">
+            <li class="g-medium--half g-wide--1 theme--multi-device-layouts  ">
+              <a href="#ignore-click" class="themed">
+                <span class="icon-circle--large themed--background"><i class="icon icon-multi-device-layouts"></i></span>
+                <h3 class="large text-divider">多设备布局</h3>
+              </a>
+              <p>建立灵活的，不是固定不变的，布局。</p>
+            </li>
+            <li class="g-medium--half g-wide--1 theme--introduction-to-media g-medium--last ">
+              <a href="#ignore-click" class="themed">
+                <span class="icon-circle--large themed--background"><i class="icon icon-introduction-to-media"></i></span>
+                <h3 class="large text-divider">图像，音频和视频</h3>
+              </a>
+              <p>仅使用加载速度快和规模的媒体。</p>
+            </li>
+            <li class="g-medium--half g-wide--1 theme--user-input  ">
+              <a href="#ignore-click" class="themed">
+                <span class="icon-circle--large themed--background"><i class="icon icon-user-input"></i></span>
+                <h3 class="large text-divider">表单和用户输入</h3>
+              </a>
+              <p>触摸，点击，点击，并提交。</p>
+            </li>
+            <li class="g-medium--half g-wide--1 theme--performance g-medium--last  g-wide--last ">
+              <a href="#ignore-click" class="themed">
+                <span class="icon-circle--large themed--background"><i class="icon icon-performance"></i></span>
+                <h3 class="large text-divider">优化性能</h3>
+              </a>
+              <p>性能是一个功能。</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <a name="featured-spotlight"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#17</strong>精选焦点</h2>
+    </div>
+
+    <a name="feature-spotlight"></a>
+    <div class="code-sample">
+      <section class="styleguide__feature-spotlight">
+        <div class="featured-spotlight">
+          <div class="container-medium">
+            <div class="featured-spotlight__container g--pull-half">
+              <div class="featured-spotlight__img">
+                <img src="../images/icons/placeholder--wide.png" alt="wide image placeholder example">
+              </div>
+
+              <div class="container-small">
+                <h3 class="xxlarge">特色亮点</h3>
+                <p>Lorem存有悲坐阿梅德，consectetur回扣。上市代理，但对生活，欧盟山雀悲。</p>
+                <a href="#ignore-click" class="cta--primary">查看谷歌</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <a name="featured-list"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#18</strong>精选名单</h2>
+    </div>
+
+    <div class="code-sample">
+      <section class="styleguide__featured-section">
+        <div class="featured-section">
+          <div class="container-medium">
+            <ul class="featured-list">
+              <li class="featured-list__item clear">
+                <div class="container-small">
+                  <div class="featured-list__content g--half">
+                    <h3>案例分析</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, incidunt harum aut quae eaque sequi sunt molestiae tenetur vitae.</p>
+                    <a href="#ignore-click" class="cta--primary">查看谷歌</a>
+                  </div>
+                  <div class="featured-list__img-wrapper g--half g--last">
+                    <div class="featured-list__img">
+                      <img src="../images/icons/placeholder--small.png" alt="small image placeholder example">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="featured-list__item clear">
+                <div class="container-small">
+                  <div class="featured-list__content g--half">
+                    <h3>案例分析</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, incidunt harum aut quae eaque sequi sunt molestiae tenetur vitae.</p>
+                    <a href="#ignore-click" class="cta--primary">查看谷歌</a>
+                  </div>
+                  <div class="featured-list__img-wrapper g--half g--last">
+                    <div class="featured-list__img">
+                      <img src="../images/icons/placeholder--small.png" alt="small image placeholder example">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <a name="next-lessons"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#19</strong>精选块</h2>
+    </div>
+
+    <div class="code-sample">
+      <section class="styleguide__next-lessons">
+        <div class="next-lessons container-medium" data-current-lesson="03">
+          <h3><i class="icon icon-lessons"></i> 下一课，</h3>
+          <ol class="list-lessons list-links">
+            <li><a href="#ignore-click">课题1</a></li>
+            <li class="current"><a href="#ignore-click">课程标题2 <i class="icon icon-tick"></i></a></li>
+            <li><a href="#ignore-click">课题三</a></li>
+            <li><a href="#ignore-click">课题4</a></li>
+            <li><a href="#ignore-click">课题5</a></li>
+          </ol>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <a name="article-navigation"></a>
+      <h2 class="subsection-title"><strong class="subsection-number">#20</strong>本文导航</h2>
+    </div>
+
+    <div class="code-sample">
+      <section class="styleguide__article-nav">
+        <div class="container-medium">
+          <nav class="article-nav">
+            <a href="#ignore-click" class="article-nav-link article-nav-link--prev">
+              <p class="article-nav-count">02</p>
+              <p>一个需要响应的网页</p>
+            </a>
+            <a href="#ignore-click" class="article-nav-link article-nav-link--next">
+              <p class="article-nav-count">04</p>
+              <p>创建图像的多种分辨率</p>
+            </a>
+          </nav>
+        </div>
+      </section>
+    </div>
+
+    <footer id="gc-footer">
+      <div class="container">
+        <p><a href="#">回到顶部</a></p>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        'use strict';
+
+        var snippetToggle = document.querySelector('#snippet-toggle');
+        var snippets;
+
+        snippetToggle.addEventListener('click', function () {
+          if (snippets) {
+            for (var i = 0; i < snippets.length; i++) {
+              snippets[i].classList.toggle('auto-gen-code-visible');
+            }
+          }
+        });
+
+        window.onload = function () {
+          createCodeSamples();
+          snippets = document.querySelectorAll('.auto-gen-code-snippet');
+        };
+
+        function createCodeSamples() {
+          var codeWrappers = document.querySelectorAll('.code-sample');
+
+          for (var i = 0; i < codeWrappers.length; i++) {
+            var codeWrapper = codeWrappers[i];
+            var clonedNodes = getClonedNonTextNodes(codeWrapper);
+
+            beautifyNodes(clonedNodes);
+
+            var preElement = document.createElement('pre');
+            var codeElement = document.createElement('code');
+
+            for (var j = 0; j < clonedNodes.length; j++) {
+              codeElement.appendChild(document.createTextNode(clonedNodes[j].outerHTML));
+
+              if (j + 1 < clonedNodes.length) {
+                codeElement.appendChild(document.createTextNode('\n'));
+              }
+            }
+
+            preElement.appendChild(codeElement);
+            preElement.classList.add('auto-gen-code-snippet');
+            preElement.classList.add('container');
+
+            var clearDiv = document.createElement('div');
+            clearDiv.classList.add('clear');
+
+            var parent = codeWrapper.parentNode;
+
+            if (codeWrapper.nextSibling) {
+              parent.insertBefore(preElement, codeWrapper.nextSibling);
+            } else {
+              parent.appendChild(preElement);
+            }
+
+            parent.insertBefore(clearDiv, preElement);
+          }
+        }
+
+        function getClonedNonTextNodes(element) {
+          var nonTextNodes = [];
+          var childNodes = element.childNodes;
+
+          for (var i = 0; i < childNodes.length; i++) {
+            var childElement = childNodes[i];
+
+            if (childElement.nodeType !== 3) {
+              // Found a valid child element
+              nonTextNodes.push(childElement.cloneNode(true));
+            }
+          }
+
+          return nonTextNodes;
+        }
+
+        function beautifyNodes(elements) {
+          for (var i = 0; i < elements.length; i++) {
+            beautifyNode(elements[i], 0);
+          }
+        }
+
+        function beautifyNode(element, depth) {
+          var childNodes = element.childNodes;
+          var singleIndent = '    ';
+          var currentDepthSpacing = '';
+
+          for (var i = 0; i < depth; i++) {
+            currentDepthSpacing += singleIndent;
+          }
+
+          var nextDepthSpacing = currentDepthSpacing + singleIndent;
+
+          for (var j = 0; j < childNodes.length; j++) {
+            var childElement = childNodes[j];
+
+            if (childElement.nodeType === 3) {
+              // found a text node
+              if (childElement.nodeValue.indexOf('\n') >= 0) {
+                if (j + 1 < childNodes.length) {
+                  childElement.nodeValue = '\n' + nextDepthSpacing;
+                } else {
+                  childElement.nodeValue = '\n' + currentDepthSpacing;
+                }
+              }
+            } else {
+              beautifyNode(childElement, depth + 1);
+            }
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>

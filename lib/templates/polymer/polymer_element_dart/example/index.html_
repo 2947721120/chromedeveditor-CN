@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>``tagName`` 演示</title>
+
+    <link rel="import" href="../lib/``sourceName``.html">
+  </head>
+
+  <body unresolved>
+    <``tagName`` who="world">
+      你好你呢！
+    </``tagName``>
+  </body>
+</html>
